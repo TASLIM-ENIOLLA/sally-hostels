@@ -1,0 +1,226 @@
+@tailwind base;
+
+.btn {
+  @apply text-white px-12 py-4 ml-4 bg-primary-Default sm:rounded-xl transition-colors duration-300 hover:bg-primary-Hover;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.4px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.2px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: 0.4px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.subtitle1 {
+  font-weight: bold;
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.subtitle2 {
+  font-weight: bold;
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.body1 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.body2 {
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.small1 {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.small2 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.small3 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+.initials {
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.sideBarShadow {
+  box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
+}
+
+.user-pic {
+  background-image: url('../img/userPic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-banner {
+  background-image: url('../img/homeBanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.best-hostel {
+  background-image: url('../img/bestHostel.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hostel-image {
+  background-image: url('../img/hostelImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-splash {
+  background-image: url('../img/Splash-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.rounded-2x{
+  border-radius: 15px;
+}
+
+.rounded-1x{
+  border-radius: 10px;
+}
+
+.hostelPanel::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.min-width-230px{
+    min-width: 230px;
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+  }
+
+  h6 {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  .file-drop {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.file-drop {
+    height: 100% !important;
+    width: 100%;
+  }

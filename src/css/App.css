@@ -1,0 +1,21 @@
+@import url("common.css");
+@import url("bootstrap.min.css");
+@import url("global.css");
+
+
+@media (min-width: 1200px){
+    .col-xl-minWidth-240px{
+        min-width: 240px;
+    }
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--theme-color);
+}
